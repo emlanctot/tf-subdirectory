@@ -1,10 +1,5 @@
 
 
-resource "aws_s3_bucket" "aws-hvs-dynamic-creds-test-emma-beep" {
-  bucket = "aws-hvs-dynamic-creds-test-emma-beep"
-}
-
-
 resource "null_resource" "first" {
 
   
